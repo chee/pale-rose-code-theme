@@ -4,6 +4,10 @@
 	"colors": {
 		"editor.background": "#ffffff",
 		"editor.foreground": "#000000",
+		"statusBar.noFolderBackground": "#ffe9ed",
+		"statusBar.noFolderForeground": "#333333",
+		"statusBar.debuggingBackground": "#09c598",
+		"statusBar.debuggingForeground": "#ffffff",
 		"statusBar.background": "#ffe9ed",
 		"statusBar.foreground": "#cc1336",
 		"activityBar.background": "#ffe9ed",
@@ -12,12 +16,14 @@
 		"tab.activeBackground": "#fff9fd",
 		"tab.inactiveForeground": "#c24f64",
 		"tab.activeForeground": "#000000",
+		"tab.border": "#ffe9ed",
 		"menu.background": "#ffe9ed",
 		"menu.foreground": "#cc1336",
-		"statusBarItem.activeBackground": "#cc1336",
+		"statusBarItem.activeBackground": "#ffffff",
+		"statusBarItem.prominentHoverBackground": "#ec1396",
 		"statusBarItem.errorBackground": "#880000",
 		"statusBarItem.errorForeground": "#ffffff",
-		"statusBarItem.hoverBackground": "#ec1396",
+		"statusBarItem.hoverBackground": "#ffffff",
 		"statusBarItem.prominentBackground": "#ec1396",
 		"statusBarItem.prominentForeground": "#ffffff",
 		"sideBar.background": "#ffe9ed",
@@ -31,7 +37,14 @@
 		"activityBarBadge.foreground": "#cc1336",
 		"panel.background": "#ffffff",
 		"titleBar.activeBackground": "#ffe9ed",
-		"titleBar.activeForeground": "#cc1336"
+		"titleBar.activeForeground": "#cc1336",
+		"titleBar.inactiveBackground": "#ffe9ed",
+		"titleBar.inactiveForeground": "#cc1336",
+		"breadcrumb.background": "#fff9fd",
+		"breadcrumb.foreground": "#666666",
+		"selection.background": "#ffee88",
+		"editorGroupHeader.tabsBackground": "#ffe9ed",
+		"editorGroupHeader.border": "#fff"
 	},
 	"tokenColors": [
 		{
