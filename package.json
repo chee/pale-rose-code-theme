@@ -1,0 +1,21 @@
+{
+    "name": "pale-rose",
+    "displayName": "pale rose theme",
+    "description": "chee rabbits other theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pale rose theme",
+                "uiTheme": "vs",
+                "path": "./themes/pale-rose-color-theme.json"
+            }
+        ]
+    }
+}
