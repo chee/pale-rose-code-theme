@@ -1,4 +1,5 @@
 {
+    "publisher": "chee",
     "name": "pale-rose",
     "displayName": "pale rose theme",
     "description": "chee rabbits other theme",
@@ -17,5 +18,10 @@
                 "path": "./themes/pale-rose-color-theme.json"
             }
         ]
+    },
+    "license": "GPL-3.0+",
+    "repository": {
+        "type": "git",
+        "url": "https://git.snoot.club/chee/pale-rose-code-theme"
     }
 }
