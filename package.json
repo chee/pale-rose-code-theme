@@ -1,27 +1,27 @@
 {
-    "publisher": "chee",
-    "name": "pale-rose",
-    "displayName": "pale rose theme",
-    "description": "chee rabbits other theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "pale rose theme",
-                "uiTheme": "vs",
-                "path": "./themes/pale-rose-color-theme.json"
-            }
-        ]
-    },
-    "license": "GPL-3.0+",
-    "repository": {
-        "type": "git",
-        "url": "https://git.snoot.club/chee/pale-rose-code-theme"
-    }
+	 "publisher": "chee",
+	 "name": "pale-rose",
+	 "displayName": "pale rose theme",
+	 "description": "chee rabbits other theme",
+	 "version": "0.0.2",
+	 "engines": {
+		  "vscode": "^1.49.0"
+	 },
+	 "categories": [
+		  "Themes"
+	 ],
+	 "contributes": {
+		  "themes": [
+				{
+					 "label": "pale rose theme",
+					 "uiTheme": "vs",
+					 "path": "./themes/pale-rose-color-theme.json"
+				}
+		  ]
+	 },
+	 "license": "GPL-3.0+",
+	 "repository": {
+		  "type": "git",
+		  "url": "https://git.snoot.club/chee/pale-rose-code-theme"
+	 }
 }
