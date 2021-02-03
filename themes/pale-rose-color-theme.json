@@ -55,7 +55,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#8899aa"
+				"foreground": "#4b5662"
 			}
 		},
 		{
@@ -91,13 +91,20 @@
 			}
 		},
 		{
+			"name": "Boolean",
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#3366ff"
+			}
+		},
+		{
 			"name": "Keywords",
 			"scope": [
 				"keyword",
 				"storage"
 			],
 			"settings": {
-				"foreground": "#3388ff"
+				"foreground": "#6d1cb9"
 			}
 		},
 		{
@@ -223,7 +230,7 @@
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				"foreground": "#cc1336"
+				"foreground": "#da3156"
 			}
 		},
 		{
@@ -338,16 +345,10 @@
 			"name": "Markup: Insertion",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#96f3bD"
+				"foreground": "#62cc82"
 			}
 		},
-		{
-			"name": "Markup: Link",
-			"scope": "meta.link",
-			"settings": {
-				"foreground": "#4B83CD"
-			}
-		},
+
 		{
 			"name": "Markup: Output",
 			"scope": [
@@ -355,21 +356,22 @@
 				"markup.raw"
 			],
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#6A3Ecc"
 			}
 		},
 		{
 			"name": "Markup: Prompt",
 			"scope": "markup.prompt",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#407acd"
 			}
 		},
 		{
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#09c598",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -421,8 +423,36 @@
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#854d1c"
+			}
+		},
+		{
+			"name": "markdown text ",
+			"scope": [
+				"meta.paragraph.markdown"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Link",
+			"scope": [
+				"meta.link",
+				"markup.underline.link.image.markdown",
+				"markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#3366ff"
+			}
+		},		
+		{
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "#444444"
 			}
 		},
 		{
@@ -448,6 +478,14 @@
 			"scope": "meta.diff.header.to-file",
 			"settings": {
 				"foreground": "#334455"
+			}
+		},
+		{
+			"name": "Markdown attributes",
+			"scope": "fenced_code.block.language.attributes.markdown",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#000000"
 			}
 		}
 	]
