@@ -348,7 +348,7 @@
 				"foreground": "#62cc82"
 			}
 		},
-
+		
 		{
 			"name": "Markup: Output",
 			"scope": [

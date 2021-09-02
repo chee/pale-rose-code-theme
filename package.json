@@ -1,27 +1,44 @@
 {
-	 "publisher": "chee",
-	 "name": "pale-rose",
-	 "displayName": "pale rose theme",
-	 "description": "chee rabbits other theme",
-	 "version": "0.0.2",
-	 "engines": {
-		  "vscode": "^1.49.0"
-	 },
-	 "categories": [
-		  "Themes"
-	 ],
-	 "contributes": {
-		  "themes": [
-				{
-					 "label": "pale rose theme",
-					 "uiTheme": "vs",
-					 "path": "./themes/pale-rose-color-theme.json"
-				}
-		  ]
-	 },
-	 "license": "GPL-3.0+",
-	 "repository": {
-		  "type": "git",
-		  "url": "https://git.snoot.club/chee/pale-rose-code-theme"
-	 }
+	"publisher": "chee",
+	"name": "pale-rose",
+	"displayName": "pale rose theme",
+	"description": "A pale pink theme with nice gay colours for rabbits",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"galleryBanner": {
+		"color": "#ffe9ed",
+		"theme": "light"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"palerose",
+		"chee",
+		"gay",
+		"rabbits",
+		"cute"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "pale rose theme",
+				"uiTheme": "vs",
+				"path": "./themes/pale-rose-color-theme.json"
+			}
+		]
+	},
+	"license": "GPL-3.0+",
+	"repository": {
+		"type": "git",
+		"url": "https://git.snoot.club/chee/pale-rose-code-theme"
+	},
+	"bugs": {
+		"url": "https: //git.snoot.club/chee/pale-rose-code-theme/issues"
+	},
+	"devDependencies": {
+		"vsce": "^1.96.3"
+	}
 }
