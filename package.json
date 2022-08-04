@@ -3,7 +3,7 @@
 	"name": "pale-rose",
 	"displayName": "pale rose theme",
 	"description": "A pale pink theme with nice gay colours for rabbits",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
