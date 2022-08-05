@@ -4,7 +4,7 @@
 	"displayName": "pale rose theme",
 	"description": "A pale pink theme with nice gay colours for rabbits",
 	"icon": "icon.png",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
