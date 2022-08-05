@@ -39,6 +39,6 @@
 		"url": "https: //github.com/chee/pale-rose-code-theme/issues"
 	},
 	"devDependencies": {
-		"vsce": "^1.96.3"
+		"vsce": "^2.10.0"
 	}
 }
